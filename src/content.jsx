@@ -1,3 +1,4 @@
+import doomAI from "./assets/demos/Doom_AI.mp4"
 import hanoiRobot from "./assets/demos/hanoi-robot.gif";
 import unityGame from "./assets/demos/FighterGame.mp4";
 import arxiv from "./assets/logos/arxiv.png"
@@ -9,6 +10,12 @@ import umnlogo from "./assets/logos/umnlogo.png"
 import ephslogo from "./assets/logos/ephslogo.webp"
 
 export const projects = [
+  {
+    title: "Reinforcement Learning DOOM AI",
+    text: "Artificial Intelligence using Reinforcement Learning made using TensorFlow, OpenAI Gym and VizDoom's API to create an Reinforcement Learning Neural Network model with Proximal Policy Optimization to complete DOOM (1993).",
+    image: doomAI,
+    url: "",
+  }, 
   {
     title: "LLM Graph Modality Paper",
     text: "Research Paper exploring novel ways to utilize LLM's such as ChatGPT in order to build and derive conclusions off of graphical data and structures. We also analyse the LLM's understanding among different graphical modalities for increase understanding and reduced token count. (Click image to read paper)",
