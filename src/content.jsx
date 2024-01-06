@@ -18,7 +18,7 @@ export const projects = [
   }, 
   {
     title: "LLM Graph Modality Paper",
-    text: "Research Paper exploring novel ways to utilize LLM's such as ChatGPT in order to build and derive conclusions off of graphical data and structures. We also analyse the LLM's understanding among different graphical modalities for increase understanding and reduced token count. (Click image to read paper)",
+    text: "Research Paper exploring novel ways to utilize LLM's such as ChatGPT in order to build and derive conclusions off of graphical data and structures. We also analyse the LLM's understanding among different graphical modalities for better reasoning and reduced token count. (Click image to read paper)",
     image: arxiv,
     url: "https://arxiv.org/abs/2311.09862#:~:text=Key%20findings%20reveal%20that%20image,limits%20while%20retaining%20critical%20information",
   }, 
@@ -39,10 +39,10 @@ export const projects = [
 export const experiences = [
   {
     title: "Software/Firmware Developer Intern",
-    info_str: "May 2023 - Present | Minneapolis, MN",
+    info_str: "May 2023 - December 2023 | Minneapolis, MN",
     image: seagate,
     desc: [
-      "Primary responsibilities include design, development and integration of embedded code for Seagate Hard drives.",
+      "Responsibilities included design, development and integration of embedded code onto Seagate drives.",
       "Interacted with customers such as Google, Microsoft, and Meta to analyze and resolve failures and performance issues during product qualifications. ",
       "Developed software and firmware tools that generate production analytics and customer drive reports, using C and Python. This tool helped reduce issue resolution time by 10%.",
       "Used Agile/Scrum methodology and performed within a team of 10 senior firmware engineers.",
@@ -50,26 +50,26 @@ export const experiences = [
   },
   {
     title: "Natural Language Processing Researcher",
-    info_str: "December 2022 - Present | Minneapolis, MN",
+    info_str: "December 2022 - December 2023 | Minneapolis, MN",
     image: umn,
     desc: [
-      "Working with a Ph.D. student in U of MN's NLP  (Natural Language Processing) Group under the guidance of Professor Dongyeop Kang.",
-      "Research in Collaborative-NLP systems between humans and machines, and developed a full-stack web-based prototype system that collects and models eye-tracking data using JavaScript behavioral framework (jsPsych), Python, PHP, Node.js, Heroku and MongoDB.",
-      "Currently researching ways to allow Large Language Models, like ChatGPT, to analyze and build conclusions from graphical data using Pytorch and OpenAI API.",
+      "Worked with a Ph.D. student in U of MN's NLP  (Natural Language Processing) Group under the guidance of Professor Dongyeop Kang.",
+      "Researched in Collaborative-NLP systems between humans and machines, and developed a full-stack web-based prototype system that collects and models eye-tracking data using JavaScript behavioral framework (jsPsych), Python, PHP, Node.js, Heroku and MongoDB.",
+      "Researched ways to allow Large Language Models, like ChatGPT, to analyze and build conclusions from graphical data using Pytorch and OpenAI API.",
     ],
   },
 ];
 
 export const educations = [
-  {
-    title: "Masters of Science in Computer Science",
-    info_str: "January 2024 - May 2025 | University of Minnesota - Twin Cities",
-    desc: [
-      "Major: Computer Science",
-    ],
-    icon_image: umnlogo,
-    pursuing_flag: true
-  },
+  // {
+  //   title: "Masters of Science in Computer Science",
+  //   info_str: "January 2024 - May 2025 | University of Minnesota - Twin Cities",
+  //   desc: [
+  //     "Major: Computer Science",
+  //   ],
+  //   icon_image: umnlogo,
+  //   pursuing_flag: true
+  // },
   {
     title: "Bachelors of Science in Computer Science",
     info_str: "September 2021 - December 2023 | University of Minnesota - Twin Cities",
@@ -77,7 +77,7 @@ export const educations = [
       "University Honors Student and Dean's List Student",
       "Major: Computer Science",
       "Minor: Mathematics",
-      "GPA: 3.92 / 4.00"
+      "GPA: 3.93 / 4.00"
     ],
     icon_image: umnlogo
   },
